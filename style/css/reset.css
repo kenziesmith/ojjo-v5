@@ -1,0 +1,27 @@
+/* Обнуление */
+
+* {
+    outline: none;
+    border: none; 
+
+    background-color: inherit;
+    font-family: inherit;
+    line-height: inherit;
+}
+*, 
+* ::before,
+* ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

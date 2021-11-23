@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Подключение style.css -->
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/reset.css">
+    <link rel="stylesheet" href="style/css/global.css">
+    <link rel="stylesheet" href="style/css/fonts.css">
+    <link rel="stylesheet" href="style/css/variables.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJJO</title>
+</head>
+
+<body>
+    <!-- Обрётка -->
+    <div class="wrapper">
+        <!-- Контент сайта -->
+        <main class="main">
+            <!-- first-screen -->
+            <section class="first-screen">
+                <header class="first-screen__header header">
+                    <div class="container">
+                        <div class="header__body">
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a class="menu__link" href="#">Контрагентам</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link" href="#">Дизайнерам</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link" href="#">Вакансии</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="header__logo">
+                                <a href="#"><img src="style/img/header/logo.svg" alt="Logo"></a>
+                            </div>
+                            <div class="header__right right">
+                                <div class="right__body">
+                                    <div class="right__search search">
+                                        <a class="search__link" href="#">Поиск</a>
+                                    </div>
+                                    <a class="right__si-su" href="#">Вход/Регистрация</a>
+                                    <div class="right__icons">
+                                        <a class="right__icon" href="#">
+                                            <img src="style/img/header/icon-1.svg" alt="icon">
+                                        </a>
+                                        <a class="right__icon" href="#">
+                                            <img src="style/img/header/icon-2.svg" alt="icon">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header__burger-icon">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="header__burger-menu burger-menu">
+                                <nav class="burger-menu__menu">
+                                    <ul class="burger-menu__list">
+                                        <li class="burger-menu__item">
+                                            <a class="burger-menu__link" href="#">Контрагентам</a>
+                                        </li>
+                                        <li class="burger-menu__item">
+                                            <a class="burger-menu__link" href="#">Дизайнерам</a>
+                                        </li>
+                                        <li class="burger-menu__item">
+                                            <a class="burger-menu__link" href="#">Вакансии</a>
+                                        </li>
+                                        <li class="burger-menu__item">
+                                            <a class="burger-menu__link" href="#">Вход/Регистрация</a>
+                                        </li>
+                                    </ul>
+                                    <div class="burger-menu__icons">
+                                        <div class="burger-menu__icon">
+                                            <img src="style/img/header/icon-1.svg" alt="Icon">
+                                        </div>
+                                        <div class="burger-menu__icon">
+                                            <img src="style/img/header/icon-2.svg" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <div class="burger-menu__social social-icons">
+                                        <div class="social-icon">
+                                            <img src="style/img/social/01.svg" alt="Icon">
+                                        </div>
+                                        <div class="social-icon">
+                                            <img src="style/img/social/02.svg" alt="Icon">
+                                        </div>
+                                        <div class="social-icon">
+                                            <img src="style/img/social/03.svg" alt="Icon">
+                                        </div>
+                                        <div class="social-icon">
+                                            <img src="style/img/social/04.svg" alt="Icon">
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="first-screen__content">
+                    <div class="first-screen__title-btn">
+                        <h1 class="first-screen__title">Долго, дорого, богато!</h1>
+                        <a class="first-screen__btn" href="#">Каталог изделий</a>
+                    </div>
+                </div>
+                <div class="first-screen__partners partners">
+                    <div class="partners__body">
+                        <div class="partners__item">
+                            <img src="style/img/partners/image.png" alt="Image">
+                        </div>
+                        <div class="partners__item">
+                            <img src="style/img/partners/image.png" alt="Image">
+                        </div>
+                        <div class="partners__item">
+                            <img src="style/img/partners/image.png" alt="Image">
+                        </div>
+                        <div class="partners__item">
+                            <img src="style/img/partners/image.png" alt="Image">
+                        </div>
+                        <div class="partners__item">
+                            <img src="style/img/partners/image.png" alt="Image">
+                        </div>
+                        <div class="partners__item">
+                            <img src="style/img/partners/image.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- choice -->
+            <section class="choice">
+                <div class="container">
+                    <div class="choice__body">
+                        <div class="choice__title-block">
+                            <p class="choice__top-title top-title">К мероприятиям</p>
+                            <h1 class="choice__title title">Настоящая красота здесь!</h1>
+                        </div>
+                        <div class="choice__tabs tabs">
+                            <nav class="tabs__buttons">
+                                <button class="tabs__button" data-tab="#tab-1" href="">Свадьба</button>
+                                <button class="tabs__button" data-tab="#tab-2" href="">Жене</button>
+                                <button class="tabs__button" data-tab="#tab-3" href="">Мужу</button>
+                                <button class="tabs__button" data-tab="#tab-4" href="">Партнеру</button>
+                                <button class="tabs__button" data-tab="#tab-5" href="">Коллекции</button>
+                                <button class="tabs__button" data-tab="#tab-6" href="">Редкость</button>
+                            </nav>
+                            <div class="tabs__items">
+                                <div class="tabs__item tab-item" id="tab-1">
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">1-я кнопка</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__item tab-item" id="tab-2">
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">2-я кнопка</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__item tab-item" id="tab-3">
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">3-я кнопка</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__item tab-item" id="tab-4">
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">4-я кнопка</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__item tab-item" id="tab-5">
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">5-я кнопка</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                </div>
+
+                                <div class="tabs__item tab-item" id="tab-6">
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">6-я кнопка</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                    <div class="tab-item__image">
+                                        <p class="tab-item__text">Типа текст, окда?</p>
+                                        <img src="style/img/tabs/03.png" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- blog -->
+            <section class="blog">
+                <div class="container">
+                    <div class="blog__title-block">
+                        <p class="blog__title-top title-top">Не знаете, что выбрать?</p>
+                        <h1 class="blog__title title">Посетите наши салоны в Москве</h1>
+                    </div>
+                    <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempora
+                        eius nemo consequatur, repudiandae aut aperiam, nesciunt cum aliquid, explicabo ipsum autem
+                        delectus ducimus? Molestiae sunt vero similique. Aliquam, repellendus culpa fugiat modi ab rerum
+                        assumenda in voluptatum illum illo soluta quaerat. Officia asperiores aliquam corrupti
+                        exercitationem id ipsum impedit sequi facere molestiae cum alias, cupiditate hic quos similique.
+                        Fugiat optio consequatur nihil voluptatum sed impedit ipsa facilis, non labore!
+                    </p>
+                    <a class="blog__btn" href="#">Наши салоны</a>
+                </div>
+            </section>
+
+            <!-- article -->
+            <section class="article">
+                <div class="container">
+                    <div class="article__title-block">
+                        <p class="article__title-top title-top">Полезные статьи</p>
+                        <h1 class="article__title title">Лучшие советы по подбору дорогих подарков</h1>
+                    </div>
+                    <div class="article__items">
+                        <div class="artcile__item">
+                            <div class="article__image">
+                                <p class="article__text">
+                                    Просто представь, что в этом тексте есть полезная информация
+                                </p>
+                                <img src="style/img/article/01.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="artcile__item">
+                            <div class="article__image">
+                                <p class="article__text">
+                                    Просто представь, что в этом тексте есть полезная информация
+                                </p>
+                                <img src="style/img/article/01.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="artcile__item">
+                            <div class="article__image">
+                                <p class="article__text">
+                                    Просто представь, что в этом тексте есть полезная информация
+                                </p>
+                                <img src="style/img/article/01.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="article__btn" href="#">Читать наш блог</a>
+                </div>
+            </section>
+
+            <!-- social -->
+            <section class="social">
+                <div class="container">
+                    <div class="social__title-block">
+                        <a class="social__top-title top-title" href="#">#ojjo_jewerly</a>
+                        <h1 class="social__title title">Мы в социальных сетях</h1>
+                    </div>
+                    <div class="social__grid grid">
+                        <div class="grid__item-1">
+                            <img class="img-play" src="style/img/grid items/play.svg" alt="">
+                            <img src="style/img/grid items/img-1.png" alt="">
+                        </div>
+                        <div class="grid__item-2">
+                            <div class="grid__item-2-img-1">
+                                <img src="style/img/grid items/img-2-1.png" alt="">
+                            </div>
+                            <div class="grid__item-2-img-2">
+                                <img src="style/img/grid items/img-2-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="grid__item-3">
+                            <div class="grid__item-3-img-1">
+                                <img src="style/img/grid items/img-3-1.png" alt="">
+                            </div>
+                            <div class="grid__item-3-img-2">
+                                <img src="style/img/grid items/img-3-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="grid__item-4">
+                            <img class="img-play" src="style/img/grid items/play.svg" alt="">
+                            <img src="style/img/grid items/img-4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Подвал -->
+        <section class="malling">
+            <div class="container">
+                <div class="malling__title-block">
+                    <p class="malling__top-title top-title">Полезные советы и персональные предложения</p>
+                    <h1 class="malling__title title">Эксклюзивная рассылка</h1>
+                </div>
+                <div class="malling__content">
+                    <div class="malling__services">
+                        <p class="malling__services-item">Личный менеджер</p>
+                        <p class="malling__services-item">Доставка и оформление</p>
+                        <p class="malling__services-item">Индивидуальный дизайн</p>
+                    </div>
+                    <div class="malling__form-border">
+                        <form action="#" class="malling__form form">
+                            <input type="text" placeholder="Ваш e-mail">
+                            <input type="submit" value="Отправить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__body">
+                    <div class="footer__column">
+                        <div class="footer__item footer-links">
+                            <div class="footer__title-block title-block-footer">
+                                <h1 class="footer__title">Полезные ссылки</h1>
+                            </div>
+                            <ul class="footer__list list-footer">
+                                <li class="footer__item item-footer">
+                                    <a class="footer__link link-footer" href="#">Доставка</a>
+                                </li>
+                                <li class="footer__item item-footer">
+                                    <a class="footer__link link-footer" href="#">Оплата</a>
+                                </li>
+                                <li class="footer__item item-footer">
+                                    <a class="footer__link link-footer" href="#">Акции</a>
+                                </li>
+                                <li class="footer__item item-footer">
+                                    <a class="footer__link link-footer" href="#">Политика конфиденциальности</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__item footer-payment">
+                            <div class="footer__title-block title-block-footer">
+                                <h1 class="footer__title">Оплата</h1>
+                            </div>
+                            <p class="footer__text text-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptates deserunt odio veritatis. Amet, assumenda?</p>
+                            <div class="footer-payment__img">
+                                <img src="style/img/footer/visa.png" alt="">
+                                <img src="style/img/footer/mastercard.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__item footer-contacts">
+                            <div class="footer__title-block title-block-footer">
+                                <h1 class="footer__title">Контакты</h1>
+                            </div>
+                            <ul class="footer__list list-footer">
+                                <li class="footer__item item-footer item-footer--item-contact">
+                                    <a class="footer__link link-footer" href="#">8 (812) 234-56-55</a>
+                                </li>
+                                <li class="footer__item item-footer item-footer--item-contact">
+                                    <a class="footer__link link-footer" href="#">8 (812) 234-56-55</a>
+                                </li>
+                                <li class="footer__item item-footer item-footer--item-contact">
+                                    <a class="footer__link link-footer" href="#">ojjo@ojjo.ru</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__item footer-social">
+                            <div class="footer__title-block title-block-footer">
+                                <h1 class="footer__title">Социальные сети</h1>
+                            </div>
+                            <p class="footer__text text-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptates deserunt odio veritatis. Amet, assumenda?</p>
+                            <div class="footer-social__social">
+                                <img src="style/img/footer/youtube.svg" alt="">
+                                <img src="style/img/footer/vk.svg" alt="">
+                                <img src="style/img/footer/facebook.svg" alt="">
+                                <img src="style/img/footer/telegram.svg" alt="">
+                                <img src="style/img/footer/etsy.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom bottom-footer">
+                    <p class="bottom-footer__item">(c) 2020 OJJO jewelry</p>
+                    <a class="bottom-footer__item" href="#">Договор публичной офферты</a>
+                    <a class="bottom-footer__item" href="#">Контрагентам</a>
+                    <p class="bottom-footer__item bottom-footer__item--underline">
+                        Разработано: <a href="https://vk.com/kenziesmith">kenziesmith</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Подключение JS файла -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

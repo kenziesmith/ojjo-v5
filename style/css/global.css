@@ -1,0 +1,29 @@
+/* Основные параметры */
+
+html {
+    scroll-behavior: smooth;
+} 
+html,
+body {
+    height: 100%;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: var(--accentColor);
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: calc(1110px + 30px);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* Прижатие подвала к низу */
+.main {
+    flex: 1 1 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
